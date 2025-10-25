@@ -42,7 +42,7 @@ window.addEventListener('input',function() {
   passaft = passkk.value
   checkusertaken = localStorage.getItem(user);
   if (passbef.length > 7 && passbef === passaft && checkusertaken === null) {
-    document.getElementById("li").setAttribute("href","login.html")
+    document.getElementById("li").setAttribute("href","Login.html")
 }
 
 })
