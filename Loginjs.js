@@ -18,7 +18,7 @@ window.addEventListener('input',function() {
   attpassword = document.getElementById("password").value
   realpassword = localStorage.getItem(usernam)
   if (attpassword.length > 7 &&  attpassword === realpassword ) {
-    document.getElementById("li").setAttribute("href","homm.html")
+    document.getElementById("li").setAttribute("href","Homm.html")
 }
   else {document.getElementById("li").setAttribute("href","")}
 })
