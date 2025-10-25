@@ -1,0 +1,86 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin:0px;
+}
+table {
+  width:100%;
+  text-align: center;
+  border-color:black;
+  border: 1 solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.margin {
+  margin:20px;
+}
+.par {
+  display:default;
+}
+.pad {
+  padding-left: 0px;
+}
+
+.clror {
+  background-color: lightblue;
+}
+.logg {
+  height: 90px;
+  background-image: linear-gradient(rgb(0,0,0,.2),rgb(0,0,0,.7)),
+  url(gavv.jpg);
+  background-size: cover;
+}
+.logo {
+  width:70px;
+  height: 70px;
+  margin: 10px;
+}
+.textlogo {
+  color:rgb(25,200,255);
+  margin:10px;
+}
+
+.clror.ola {
+  position:sticky;
+  top: 0;
+  left:0;
+  z-index:1000;
+}
+
+.profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  position: relative;
+  right: -10px
+}
+
+.impopar {
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  right: -180px;
+  bottom: 180px;
+}
+
+.imgip {
+  width:150px;
+  height:150px;
+  z-index: -1;
+  position: relative;
+}
+
+.topmenu {
+  position: sticky;
+  top: 0px;
+  z-index: 3999;
+}
+
+td {
+}

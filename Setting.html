@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>home</title>
+</head>
+<link rel="stylesheet" href="Homess.css">
+<body id=bg>
+  <div class=topmenu>
+    <table class=logg>
+    <tr>
+      <td><img src=logozchs.png class=logo></td>
+      <td><h1 class=textlogo>Zamboang City High School (MAIN)</h1></td>
+    </tr>
+  </table>
+  <table rowspan=5 border=0 class=clror>
+    <tr>
+    <td><a href=Homm.html class="Option1">Home</a></td>
+    <td><a href="history.html" class="Option1">History</a></td>
+     <td><a href="prog.html" class="Option1">Programs</a></td>
+    <td><a href="aboutus.html" class="Option1">About Us</a></td>
+       <td><a bgcolor="">Account</a></td>
+    </tr>
+  </table>
+  </div>
+  <div class=margin id=txtclr  style="color:rgb(50,50,50)">
+    <h2>Account</h2>
+      <img id=naymar class=profilepic onerror="this.src='default.jpg'">
+  <h4>Account: <font id=user>Whoknows</fony></h4>
+  <a href=Login.html>
+  <button onclick=out() >Logout</button>
+  </a>
+  <br>
+  <h2>Settings</h2>
+  <h3>Language</h3>
+  <div class=langtype>
+  <input type=radio name=lang id=S1 value=en checked>
+  <font>English</font>
+  <br>
+  <input type=radio name=lang id=S1 value=ph disabled="true">
+  <font>Tagalog (Soon)</font>
+  <br>
+  </div>
+  <h3>Simplificatiom</h3>
+   <div class=centype>
+  <input type=radio name=cent id=S201 value=1 id=cen onclick="sets()">
+  <font>Full</font>
+  <br>
+  <font color=gray>Puts evry info in High detail</font>
+  <br>
+  <input type=radio name=cent id=S202 value=2 id=cen onclick="sets()">
+  <font>Summarized</font>
+  <br>
+  <font color=gray>Keeps Important Info with high details</font>
+  <br>
+  <input type=radio name=cent id=S203 value=3 id=cen onclick="sets()">
+  <font>Simplified</font>
+  <br>
+  <font color=gray>Keeps some important info and understandable details</font>
+   <br>
+  <input type=radio name=cent id=S204 value=4 onclick="sets()">
+  <font>Over-Simplified</font>
+  <br>
+  <font color=gray>Has little details</font>
+  </div>
+  <h3>Screen mode</h3>
+   <div class=scrtype>
+  <input type=radio name=Sm id=S3 value=1 onclick="sets()">
+  <font>Light</font>
+  <br>
+  <input type=radio name=Sm id=S3 value=2 onclick="sets()">
+  <font>Dark</font>
+  </div>
+  </div>
+  <br>
+    <title class=censor2></title>
+    <title class=censor1></title>
+    <title class=censor3></title>
+</body>
+<script src="Sgop.js"></script>
+</html>

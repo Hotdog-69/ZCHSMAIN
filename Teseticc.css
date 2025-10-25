@@ -1,0 +1,137 @@
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #666;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.clror {
+  background-color: #ADD8E6; /* light blue */
+  padding: 10px;
+}
+
+.logg {
+  height: 90px;
+  background-color: #3498db; /* blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 90px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.textlogo {
+  color: #fff;
+  margin: 10px;
+  font-size: 24px;
+}
+
+.clror.ola {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.impopar {
+  margin: 10px;
+  width: 200px;
+  position: relative;
+  right: -180px;
+  bottom: 180px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgip {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .logg {
+    height: auto;
+    padding: 10px;
+  }
+  
+  .textlogo {
+    font-size: 18px;
+  }
+  
+  .impopar {
+    width: 100%;
+    position: static;
+    margin: 10px 0;
+  }
+  
+  .imgip {
+    width: 100%;
+    height: auto;
+    
+  }
+}
+
+/*
+I made the following changes:
+- Added CSS transitions and hover effects for better user experience
+- Improved table styling with `border-collapse` and `padding`
+- Enhanced `.logg` styling with flexbox for better centering
+- Added `object-fit` property for images to maintain aspect ratio
+- Added responsive design for better mobile experience
+- Improved `.impopar` styling with background color, padding, and border radius
+- Added box shadows for better depth effect
+
+You can adjust these styles according to your preferences.*/
